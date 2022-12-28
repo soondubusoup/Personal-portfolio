@@ -51,7 +51,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Test Stage</p>
+                <p>One Piece</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
@@ -80,10 +80,10 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="section">
-                      <p>Test Stage.</p>
+                      <p>One Piece</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Test Stage</p>
+                      <p>One Piece</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
